@@ -18,13 +18,16 @@ console.log(gameName.indexOf('t'));
 
 const newString = gameName.substring(0, 4)
 console.log(newString);
+//in substring we -ve indexing is not work.
 
 const anotherString = gameName.slice(-8, 4)
 console.log(anotherString);
+// in substring we -ve indexing is work.
 
 const newStringOne = "   hitesh    "
 console.log(newStringOne);
 console.log(newStringOne.trim());
+ // trim is used to delete the blank space  from starting and from left
 
 const url = "https://hitesh.com/hitesh%20choudhary"
 
@@ -33,3 +36,5 @@ console.log(url.replace('%20', '-'))
 console.log(url.includes('sundar'))
 
 console.log(gameName.split('-'));
+// ['hitesh','hc','com'] is output
+
